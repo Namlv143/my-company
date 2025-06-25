@@ -1,1 +1,6 @@
-# my-company
+## Installation
+
+```
+npm i
+npm run dev
+```
