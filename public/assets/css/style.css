@@ -12029,3 +12029,44 @@ h6.footer-title {
 .services-area-three {
     padding-top: 80px;
 }
+
+/* Căn chỉnh hàng ngang cho .row */
+.row {
+  display: flex;
+  justify-content: space-between; /* Đảm bảo các phần tử cách đều */
+  flex-wrap: wrap; /* Cho phép các phần tử chuyển sang dòng tiếp theo nếu không đủ không gian */
+}
+
+/* Đảm bảo các cột có cùng kích thước */
+.col-md-4 {
+  margin: 10px; /* Khoảng cách giữa các cột */
+  flex: 1 1 30%; /* Đảm bảo các cột chiếm ít nhất 30% chiều rộng và có thể co giãn */
+  box-sizing: border-box; /* Đảm bảo padding và margin không làm thay đổi kích thước tổng thể */
+}
+
+/* Tạo khoảng cách cho tiêu đề trong mỗi cột */
+h5 {
+  margin-bottom: 15px;
+}
+
+/* Tạo khoảng cách cho các đoạn văn trong mỗi cột */
+p {
+  margin-bottom: 20px;
+}
+
+/* Khoảng cách cho nút bấm */
+button {
+  margin-top: 20px;
+}
+
+/* Padding cho các phần tử có class text-black */
+.text-black {
+  padding: 10px;
+}
+
+/* Đảm bảo cột sẽ xếp chồng khi màn hình nhỏ */
+@media (max-width: 768px) {
+  .col-md-4 {
+    flex: 1 1 100%; /* Cột sẽ chiếm 100% chiều rộng trên màn hình nhỏ */
+  }
+}
