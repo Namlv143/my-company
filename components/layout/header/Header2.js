@@ -121,7 +121,7 @@ export default function Header2({
                                 </Menu> */}
                 {/* <button className="cart"><i className="far fa-shopping-cart" /></button> */}
                 <Link href="/contact" className="theme-btn style-two ms-5">
-                  let,s talk
+                  let's talk
                 </Link>
               </div>
             </div>

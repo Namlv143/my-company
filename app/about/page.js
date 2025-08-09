@@ -762,7 +762,7 @@ export default function About() {
               </Link>
               <h5 className="talk-to-email">
                 <Link href="/contact">Contact us</Link> or send an{" "}
-                <span>email to</span> info@Mehedii.com
+                <span>email to</span> vietanhvu225@gmail.com
               </h5>
             </div>
           </div>

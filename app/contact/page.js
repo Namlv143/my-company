@@ -49,13 +49,8 @@ export default function Contact() {
                     </div>
                     <div className="content">
                       <h5>Phone Number</h5>
-                      <Link href="/callto:+12555686523">
-                        +1255 - 568 - 6523
-                      </Link>
+                      <Link href="/callto:+84978608188">0978608188</Link>
                       <br />
-                      <Link href="/callto:+12555686523">
-                        +1255 - 568 - 6523
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -67,8 +62,8 @@ export default function Contact() {
                     <div className="content">
                       <h5>Address line</h5>
                       <span>
-                        Bowery St, New York, NY
-                        <br /> 10013,USA
+                        30 P. Hoàng Đạo Thúy Trung Hòa Nhân Chính, Trung Hoà,
+                        Cầu Giấy, Hanoi, Vietnam
                       </span>
                     </div>
                   </div>
