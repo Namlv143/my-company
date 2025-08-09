@@ -49,7 +49,7 @@ export default function Contact() {
                     </div>
                     <div className="content">
                       <h5>Phone Number</h5>
-                      <Link href="/callto:+84978608188">0978608188</Link>
+                      <Link href="/callto:+84978608188">+84 978608188</Link>
                       <br />
                     </div>
                   </div>
@@ -62,8 +62,8 @@ export default function Contact() {
                     <div className="content">
                       <h5>Address line</h5>
                       <span>
-                        30 P. Hoàng Đạo Thúy Trung Hòa Nhân Chính, Trung Hoà,
-                        Cầu Giấy, Hanoi, Vietnam
+                        30 Hoang Dao Thuy Street, Trung Hoa, Cau Giay, Hanoi,
+                        Vietnam
                       </span>
                     </div>
                   </div>

@@ -81,8 +81,7 @@ export default function Footer2() {
                   </li>
                   <li>
                     <i className="fas fa-map-marked-alt" /> 30 Hoang Dao Thuy
-                    Street, Trung Hoa Nhan Chinh, Trung Hoa Ward, Cau Giay
-                    District, Hanoi, Vietnam
+                    Street, Trung Hoa Ward, Cau Giay , Hanoi, Vietnam
                   </li>
                 </ul>
               </div>

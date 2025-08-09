@@ -21,13 +21,13 @@ export default function Header2({
                 <div className="col-lg-6 col-md-5">
                   <ul className="top-left text-center text-lg-start">
                     <li>
-                      <i className="fas fa-map-marker-alt" /> 6391 Elgin St.
-                      Celina, Delaware 10299
+                      <i className="fas fa-map-marker-alt" /> 30 Hoang Dao Thuy
+                      Street. Cau Giay HN VN
                     </li>
                     <li>
                       <i className="fas fa-envelope" /> Mail Us:{" "}
-                      <Link href="mailto:your_protect@mail.com">
-                        your_protect@mail.com
+                      <Link href="mailto:vietanhvu225@gmail.com">
+                        vietanhvu225@gmail.com
                       </Link>
                     </li>
                   </ul>
