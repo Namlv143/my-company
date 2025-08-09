@@ -8,7 +8,7 @@ export default function Video1() {
             <section className="video-area rel z-1">
                 <div className="container">
                     <div className="video-top text-center pt-30 mb-30">
-                        <h5><Link href="/contact">Contact us</Link> or send an <span>email to</span> info@Mehedii.com</h5>
+                        <h5><Link href="/contact">Contact us</Link> or send an <span>email to</span> vietanhvu225@gmail.com</h5>
                     </div>
                 </div>
                 <div className="container container-1695">
