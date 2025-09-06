@@ -130,7 +130,7 @@ h6 a {
 
 ul,
 li {
-    list-style: none;
+    /* list-style: none; */
     padding: 0;
     margin: 0;
 }
@@ -5579,8 +5579,10 @@ h6,
 .hero-content-two h1 span {
     color: var(--primary-color);
 }
+
 .hero-content-two h1 span:first-child {
-    color: var(--heading-color);;
+    color: var(--heading-color);
+    ;
 }
 
 .hero-content-two h1 i {
@@ -12026,6 +12028,236 @@ h6.footer-title {
 .footer-social .social-style-one a:not(:hover) {
     color: var(--base-color);
 }
+
 .services-area-three {
     padding-top: 80px;
+}
+
+
+/* CartOption.css */
+.cart-option-section {
+    background-color: #010101;
+    padding: 2.5rem 1.5rem;
+    /* py-10 px-6 */
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #83827F;
+}
+
+.cart-option-wrapper {
+    max-width: 1120px;
+    /* max-w-7xl */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .cart-option-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+}
+
+.cart-option-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: left;
+}
+
+@media (min-width: 1024px) {
+    .cart-option-content {
+        width: 60%;
+    }
+}
+
+.cart-option-title {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    color: rgb(171, 133, 133);
+    line-height: 1.2;
+}
+
+.cart-option-paragraph {
+    line-height: 1.75;
+}
+
+.cart-option-list {
+    padding-left: 30px;
+    list-style: disc outside;
+}
+
+.cart-option-list li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+.cart-option-image-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+
+}
+
+@media (min-width: 1024px) {
+    .cart-option-image-wrapper {
+        width: 40%;
+        justify-content: flex-end;
+    }
+}
+
+.cart-option-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    display: block;
+    /* đảm bảo ảnh là block */
+    z-index: 1;
+    /* ảnh nằm dưới */
+}
+
+.cart-option-overlay-list {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #83827F;
+    padding: 10px;
+    border-radius: 8px;
+    z-index: 2;
+    /* ul nằm trên ảnh */
+    list-style: disc outside;
+}
+
+.cart-option-overlay-list li {
+    line-height: 1.75;
+    margin: 0;
+    padding: 0;
+}
+
+.cart-option-title {
+    white-space: pre-line;
+    /* cho phép xuống dòng với \n */
+}
+
+
+/* CartOptionLeftImage.css */
+.cart-left-section {
+    background-color: #010101;
+    padding: 2.5rem 1.5rem;
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+    color: #83827F;
+}
+
+.cart-left-wrapper {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+    .cart-left-wrapper {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: 2rem;
+    }
+}
+
+.cart-left-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 0.375rem;
+    /* rounded-md */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    /* shadow-sm */
+}
+
+.cart-left-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+@media (min-width: 1024px) {
+    .cart-left-content {
+        width: 60%;
+    }
+}
+
+.cart-left-title {
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    color: rgb(171, 133, 133);
+    line-height: 1.2;
+}
+
+.cart-left-paragraph {
+    line-height: 1.75;
+}
+
+.cart-left-list {
+    padding-left: 30px;
+    list-style: disc outside;
+}
+
+.cart-left-list li {
+    margin: 0;
+    padding: 0;
+    line-height: 1.75;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #C4EF17;
+
+    overflow: hidden;
+}
+
+
+.banner-title {
+    position: relative;
+    z-index: 2;
+    font-weight: bold;
+    padding: 0 1rem;
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+@media (min-width: 768px) {
+    .banner-title {
+        font-size: 48px;
+    }
+}
+
+.link-highlight {
+    color: #C4EF17;
+    text-decoration: underline;
+    transition: color 0.3s ease;
+}
+
+.link-highlight:hover {
+    color: #A8D415;
+    /* xanh vàng đậm hơn khi hover */
 }
