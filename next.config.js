@@ -1,8 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export', // xuất ra static HTML
+  output: 'export',
   images: {
-    unoptimized: true, // bắt buộc nếu có dùng next/image
+    unoptimized: true,
   },
 };
 
