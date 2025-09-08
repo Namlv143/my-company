@@ -58,23 +58,24 @@ export default function Menu() {
                     onMouseLeave={() => handleClick(3)}>
                     <Link href="#">Services</Link>
                     <ul style={{ display: isActive.key == 3 ? 'block' : 'none' }}>
-                        <li><Link href="#">Software Development</Link></li>
-                        <li><Link href="#">App Development</Link></li>
-                        <li><Link href="#">Managed IT Services</Link></li>
-                        <li><Link href="#">Sitecore Development</Link></li>
+                        <li><Link href="/software-development">Software Development</Link></li>
+                        <li><Link href="/app-development">App Development</Link></li>
+                        <li><Link href="/managed-services">Managed IT Services</Link></li>
+                        <li><Link href="/sitecore-development">Sitecore Development</Link></li>
                     </ul>
                 </li>
-                {/* <li className="dropdown"
-                    onMouseEnter={() => handleClick(4)}
-                    onMouseLeave={() => handleClick(4)}>
-                    <Link href="#">Portfolio</Link>
-                    <ul style={{ display: isActive.key == 4 ? 'block' : 'none' }}>
-                        <li><Link href="/portfolio">Portfolio One</Link></li>
-                        <li><Link href="/portfolio2">Portfolio Two</Link></li>
-                        <li><Link href="/portfolio3">Portfolio Three</Link></li>
-                        <li><Link href="/portfolio-details">Portfolio Details</Link></li>
+                <li className="dropdown"
+                    onMouseEnter={() => handleClick(5)}
+                    onMouseLeave={() => handleClick(5)}>
+                    <Link href="#">Success Story Detail</Link>
+                    <ul style={{ display: isActive.key == 5 ? 'block' : 'none' }}>
+                        <li><Link href="/osim-ecommerce-system">OSIM Ecommerce System</Link></li>
+                        <li><Link href="/rabbit-group-website">Rabbit Group Website</Link></li>
+                        <li><Link href="/spacebar-news">Spacebar News Platform</Link></li>
+                        <li><Link href="/toyota-and-lexus">Toyota & Lexus Australia</Link></li>
+                        <li><Link href="/caresuper-website">CareSuper Website Personalization</Link></li>
                     </ul>
-                </li> */}
+                </li>
                 {/* <li className="dropdown"
                     onMouseEnter={() => handleClick(5)}
                     onMouseLeave={() => handleClick(5)}>
