@@ -5,6 +5,40 @@ export default function Contact() {
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact Us">
         <div>
+          {/* About Section - 3 Columns */}
+          <section className="py-20 black text-center">
+            <div className="container">
+              <h2 className="text-2xl font-semibold mb-12 text-black">About</h2>
+              <div className="row justify-content-center">
+                <div className="col-md-4 mb-4">
+                  <h5 className="mb-2 text-black">Team</h5>
+                  <p className="text-white">
+                    We design, develop and deliver outstanding results for our
+                    customers. Our collaboration models are tailored to your
+                    organisation needs.
+                  </p>
+                </div>
+                <div className="col-md-4 mb-4">
+                  <h5 className="mb-2 text-black">Leadership</h5>
+                  <p className="text-white">
+                    Our management team has over 33 years of global information
+                    technology experience across a diverse range of industries.
+                  </p>
+                </div>
+                <div className="col-md-4 mb-4">
+                  <h5 className="mb-2 text-black">Let’s Connect</h5>
+                  <p className="text-white">
+                    We would like the opportunity to have a discussion to see if
+                    we can help you achieve your goals.
+                  </p>
+                  <button className="btn btn-dark mt-3 px-4 py-2 text-sm rounded-pill">
+                    BOOK A CONSULTATION
+                  </button>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section className="contact-page py-140 rpy-100 rel z-1">
             <div className="container">
               <div className="row pb-60 justify-content-center">
@@ -15,13 +49,8 @@ export default function Contact() {
                     </div>
                     <div className="content">
                       <h5>Phone Number</h5>
-                      <Link href="/callto:+12555686523">
-                        +1255 - 568 - 6523
-                      </Link>
+                      <Link href="/callto:+84978608188">+84 978608188</Link>
                       <br />
-                      <Link href="/callto:+12555686523">
-                        +1255 - 568 - 6523
-                      </Link>
                     </div>
                   </div>
                 </div>
@@ -33,8 +62,8 @@ export default function Contact() {
                     <div className="content">
                       <h5>Address line</h5>
                       <span>
-                        Bowery St, New York, NY
-                        <br /> 10013,USA
+                        30 Hoang Dao Thuy Street, Trung Hoa, Cau Giay, Hanoi,
+                        Vietnam
                       </span>
                     </div>
                   </div>
